@@ -7,7 +7,7 @@ import ui-lib.jsfx-inc
 
 //slider1:gain_db=0<-150,12,1>gain (dB)
 slider1:volca_num=3<1,10,1>Number of Devices?
-slider1:device_sel=1<1,volca_num,1>Device Setup
+slider2:device_sel=1<1,volca_num,1>Device Setup
 
 in_pin:left input
 in_pin:right input
