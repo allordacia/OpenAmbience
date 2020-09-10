@@ -15,6 +15,11 @@ out_pin:left output
 out_pin:right output
 
 @init
+freemem = ui_setup(0);
+// Allocate two buffers of length 1024
+buffer0 = freemem;
+buffer1 = freemem + 1024;
+freemem += 2048;
 
 @block
 midisend(0, $x90, 69, 127);
