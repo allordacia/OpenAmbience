@@ -15,7 +15,13 @@ out_pin:left output
 out_pin:right output
 
 @init
-last_gain=10^(gain_db/20);
+
+@block
+midisend(0, $x90, 69, 127);
+
+
+// @init
+// last_gain=10^(gain_db/20);
 
 // @slider
 // next_gain=10^(gain_db/20);
