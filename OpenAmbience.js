@@ -2,6 +2,7 @@ desc: Open Ambience Generator
 // Written by Allordacia 
 //Version Beta 1, September 2020
 
+import OAfeatures.js
 
 //slider1:gain_db=0<-150,12,1>gain (dB)
 slider1:volca_num=3<1,10,1>Number of Devices?
